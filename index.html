@@ -1,4 +1,4 @@
-<form name="contactForm">
+<form name="submit-form">
   <input name="nombres" type="text" placeholder="Nombres" required>
   <input name="apellidos" type="text" placeholder="Apellidos" required>
   <input name="email" type="email" placeholder="Email" required>
@@ -6,7 +6,7 @@
 </form>
     <script>
                 const scriptURL = 'https://script.google.com/macros/s/AKfycbxEOfgXxYsumqf1Toer0j9mLxX0IscM8Ohnh9AnMNUOnDSDmOPQjdBxtVTWHx_n4Vg1/exec'
-                const form = document.forms['contactForm']
+                const form = document.forms['submit-form']
         
                 form.addEventListener('submit', e => {
                 e.preventDefault()
